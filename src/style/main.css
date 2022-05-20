@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap");
 header {
   background-color: #D9EBFE;
 }
@@ -133,6 +134,145 @@ header .container__header .container__header--navegation .header__nav .header__u
   font-size: 1.5em;
   max-width: 80%;
   color: #11235B;
+}
+
+.container__mission .container__mission--animacao {
+  height: 250px;
+  width: 90%;
+}
+
+.container__plataform {
+  padding: 45px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container__plataform .contaier__plataform--infos {
+  width: 80%;
+  text-align: center;
+  margin-bottom: 55px;
+}
+
+.container__plataform .contaier__plataform--infos .plataform--infos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container__plataform .contaier__plataform--infos .plataform--infos .plataform--infos--title {
+  font-weight: bold;
+  color: #11235B;
+  font-size: 2.5em;
+  margin: 25px 0px;
+}
+
+.container__plataform .contaier__plataform--infos .plataform--infos .plataform--infos--subtitle {
+  color: #1EE6E6;
+  margin-top: 10px;
+  font-size: 1.9em;
+  max-width: 50%;
+}
+
+.container__plataform .contaier__plataform--infos .plataform--infos .plataform--infos--texto {
+  margin-top: 25px;
+  font-size: 1.5em;
+  max-width: 80%;
+  color: #11235B;
+}
+
+.container__plataform .container__plataform--cards {
+  width: 80%;
+  margin: 45px 0px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container__plataform .container__plataform--cards .plataform--cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container__plataform .container__plataform--cards .plataform--cards .cards--image-1 {
+  -webkit-box-shadow: 0px 10px 20px 000000;
+          box-shadow: 0px 10px 20px 000000;
+  background: linear-gradient(45deg, #c1c1c1 0%, #c1c1c1 0%, #f6f6f6 52%, #ffffff 100%);
+  height: 410px;
+  margin-top: 15px;
+}
+
+.container__plataform .container__plataform--cards .plataform--cards .cards--image-1 img {
+  height: 450px;
+  width: 483px;
+  margin: 10px;
+}
+
+.container__plataform .container__plataform--cards .plataform--cards .cards--image-2 {
+  margin: 0px;
+  padding: 0px;
+  height: 425px;
+}
+
+.container__plataform .container__plataform--cards .plataform--cards .cards--image-2 img {
+  height: 450px;
+}
+
+.container__plataform .container__plataform--cards .plataform--cards .cards--botao {
+  width: 80%;
+  height: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container__plataform .container__plataform--cards .plataform--cards .cards--botao a {
+  padding: 15px;
+  text-align: center;
+  width: 100%;
+  text-decoration: none;
+  background-color: #11235B;
+  border-radius: 10px;
+  color: #1EE6E6;
+  font-weight: bold;
+  font-size: 1.2em;
 }
 
 html, body, div, span, applet, object, iframe,
