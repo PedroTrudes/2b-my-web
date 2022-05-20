@@ -1,0 +1,27 @@
+
+header{
+    background-color: #D9EBFE;
+        .container__header{
+        display: flex;
+        justify-content: space-between;
+        padding: 15px 55px;
+
+        .container__header--navegation{
+            
+            .header__nav{
+                .header__ul{
+                    display: flex;
+                    .header__li{
+                        list-style: none;
+                        margin: 15px 45px;
+
+                        .header__link{
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+}

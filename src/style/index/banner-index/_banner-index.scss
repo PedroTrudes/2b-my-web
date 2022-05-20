@@ -1,0 +1,36 @@
+@import '../../variaveis/variaveis';
+
+.container__banner{
+   background-image: url("https://images2.imgbox.com/db/c7/DNafc3PQ_o.png");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   width: 100%;
+   height: 700px;
+   display: flex;
+   justify-content: space-around;
+    align-items: center;
+
+   .container__banner--info{
+       width: 50%;
+       .info__texto{
+           margin: 0px 0px 25px 0px;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           
+           h1{
+               max-width: 50%;
+               font-size: 52px;
+               color: $cor-azul-escuro;
+               font-weight: $font-peso-bold;
+            }
+            p{
+                font-size: 1.8em;
+                max-width: 50%;
+                color: $cor-azul-claro;
+                font-weight: $font-peso-bold;
+            }
+       }
+   }
+}
